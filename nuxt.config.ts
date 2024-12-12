@@ -10,10 +10,10 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'initial-scale=1',
-      title: '랜디벗 관리자 - 스마트한 연구비 관리 파트너',
+      title: '밋플 관리자 : 친구와 함께 직장인 미팅',
       meta: [
-        { name: 'description', content: '랜디벗 관리자 - 스마트한 연구비 관리 파트너' },
-        { name: 'author', content: '랜디벗' },
+        { name: 'description', content: '밋플 관리자 : 친구와 함께 직장인 미팅' },
+        { name: 'author', content: '밋플' },
         { name: 'theme-color', content: '#ffffff' }
       ]
     }

@@ -2,10 +2,12 @@ module.exports = {
   apps: [
     {
       name: 'Meetple Admin',
-      port: '3020',
+      script: './start.mjs',
       exec_mode: 'fork',
-      instances: '1',
-      script: './.output/server/index.mjs'
-    }
-  ]
+      instances: 1,
+      env: {
+        NODE_ENV: 'production',
+      },
+    },
+  ],
 }

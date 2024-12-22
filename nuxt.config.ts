@@ -26,5 +26,9 @@ export default defineNuxtConfig({
     DATABASE_PASSWORD: process.env.DATABASE_PASSWORD,
     DATABASE_NAME: process.env.DATABASE_NAME,
     DATABASE_SCHEMA: process.env.DATABASE_SCHEMA,
+    MESSAGE_HOST: process.env.MESSAGE_HOST,
+    MESSAGE_USER_ID: process.env.MESSAGE_USER_ID,
+    MESSAGE_API_KEY: process.env.MESSAGE_API_KEY,
+    MESSAGE_SENDER: process.env.MESSAGE_SENDER
   }
 })
